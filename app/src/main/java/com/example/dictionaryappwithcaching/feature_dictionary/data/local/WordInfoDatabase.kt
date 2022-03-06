@@ -5,6 +5,11 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import com.example.dictionaryappwithcaching.feature_dictionary.data.local.entity.WordInfoEntity
 
+/**
+ * Since, the tables in room database can have only primitive datatype and
+ * we have type "Meaning" in the word info table.
+ * Therefore, we need to create a custom type converter for it.
+ * */
 @Database(
     entities = [WordInfoEntity::class],
     version = 1
