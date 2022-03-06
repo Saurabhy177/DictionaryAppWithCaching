@@ -9,6 +9,10 @@ Introduction
 
 DictionaryApp is designed using MVVM clean architecture using Jetpack Compose in a single module. <br>
 Room DB is used for caching dictionary searched words locally. <br>
+Retrofit library is used for interacting with dictionary api. <br>
+
+Dictionary API:<br>
+https://api.dictionaryapi.dev/
 
 Special feature: <br>
 a) Clean MVVM architecture <br>
