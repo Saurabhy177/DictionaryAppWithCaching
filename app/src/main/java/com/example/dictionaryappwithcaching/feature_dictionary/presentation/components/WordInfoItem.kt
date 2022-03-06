@@ -21,13 +21,11 @@ fun WordInfoItem(
         Text(
             text = wordInfo.word,
             fontSize = 24.sp,
-            fontWeight = FontWeight.Bold,
-            color = Color.Black
+            fontWeight = FontWeight.Bold
         )
         Text(
             text = wordInfo.phonetic,
-            fontWeight = FontWeight.Light,
-            color = Color.Black
+            fontWeight = FontWeight.Light
         )
         Spacer(modifier = Modifier.height(16.dp))
         Text(text = wordInfo.origin)
